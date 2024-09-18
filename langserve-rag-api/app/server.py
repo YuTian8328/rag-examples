@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 from langserve import add_routes
 
-from app.queries import llm_chain, json_chain, json_limerick_chain, salesman_chain
+from app.chains import llm_chain, json_chain, json_limerick_chain, salesman_chain
 
 app = FastAPI()
 
