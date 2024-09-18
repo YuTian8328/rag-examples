@@ -1,0 +1,14 @@
+name: langserve-rag-api
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - ipython
+  - ipywidgets
+  - pip:
+    - langchain
+    - langchain-cli
+    - langserve[all]
+    - langchain-openai
